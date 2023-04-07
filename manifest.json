@@ -1,0 +1,21 @@
+{
+    "name": "Ceasar Cipher Demo",
+    "version": "1.0",
+    "description": "A simple Chrome extension for opening and viewing text files",
+    "manifest_version": 3,
+    "permissions": [
+        "file:///",
+        "activeTab",
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "My Text File Viewer",
+        "icon": "icon.png"
+    }
+}
+
+
